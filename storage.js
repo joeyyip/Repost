@@ -10,16 +10,6 @@
 class Storage {
 
     /**
-     * Make a unique ID from the request ID. It will be unique for the life
-     * of the browser session. It's possible the request ID will be re-used
-     * between browser sessions.
-     * @param {string} requestId - Request ID
-     */
-    //static tempAdId(requestId) {
-    //    return 'tempAdId_' + requestId;
-    //}
-
-    /**
      * Get ads from storage
      * @param {string} adId - ID of ad. Used as key in storage
      * @param {getAdsCallback} callback - Called once ads are retrieved
